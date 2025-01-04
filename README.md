@@ -2,6 +2,11 @@
 
 This project uses OpenCV to count the number of fingers shown in a hand gesture captured by a webcam. The program processes the video feed, detects contours and convexity defects, and uses the cosine rule to count the number of visible fingers. It displays the count on the screen in real-time.
 
+## A demonstration
+This video demonstrates how the code works by showing the process of counting fingers using OpenCV. It visualizes the key steps in action, including detecting and counting fingers in real-time.
+
+[Click here to view the video](https://raw.githubusercontent.com/Bugates/Finger_count_using_OpenCV/refs/heads/main/Number%20of%20fingers.mp4)
+
 ## Features
 - Real-time finger counting using webcam feed.
 - Uses convexity defects and the cosine rule to determine the number of fingers.
@@ -46,7 +51,7 @@ pip install opencv-python numpy
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License - see the `LICENSE` file for details.
 
 ## Acknowledgements
 
